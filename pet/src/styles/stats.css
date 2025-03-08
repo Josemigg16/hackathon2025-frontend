@@ -1,0 +1,18 @@
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+input[type="range"]::-ms-thumb {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}

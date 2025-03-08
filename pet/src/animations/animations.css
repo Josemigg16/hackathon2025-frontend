@@ -1,0 +1,36 @@
+:root {
+    --sprite-size: 24px
+}
+
+.init {
+    animation: init .5s ease-in;
+}
+
+.pop {
+    animation: pop .3s ease-in;
+}
+
+@keyframes init {
+    0% {
+        transform: translateY(20%);
+    }
+
+    20% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes pop {
+    0% {
+        transform: translateY(10%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
